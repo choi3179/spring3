@@ -3,6 +3,7 @@ package com.spring3.core3.discount;
 
 import com.spring3.core3.member.Grade;
 import com.spring3.core3.member.Member;
+import org.springframework.stereotype.Component;
 
 // 정액 할인 정책 구현체
 public class FixDiscountPolicy implements DiscountPolicy{
